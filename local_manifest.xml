@@ -30,6 +30,6 @@
 
   <!-- Remove -->
 
-       <remove-project name="android_hardware_xiaomi" />
+       <remove-project name="LineageOS/android_hardware_xiaomi" />
 
 </manifest>
