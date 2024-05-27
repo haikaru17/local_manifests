@@ -25,11 +25,5 @@
        <project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" remote="hklknz-stuffs" revision="fourteen-v2" />
 
        <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="ihklknz" revision="fourteen" />
-
-       
-
-  <!-- Remove -->
-
-       <remove-project name="LineageOS/android_hardware_xiaomi" />
-
+   
 </manifest>
