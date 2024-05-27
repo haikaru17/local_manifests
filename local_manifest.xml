@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+   <!-- Remote For Deploy Trees -->
+
+
+
+  <remote name="ihklknz"
+
+          fetch="https://github.com/ihklknz" />
+
+  <remote name="hklknz-stuffs"
+
+          fetch="https://github.com/hklknz-stuffs" />
+
+  <!-- Set Your Directory From Trees To Here -->
+
+       <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="hklknz-stuffs" revision="fourteen-v2" />
+
+       <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="hklknz-stuffs" revision="fourteen-v2" />
+
+       <project path="vendor/xiaomi/beryllium" name="vendor_xiaomi_beryllium" remote="hklknz-stuffs" revision="fourteen-v2" />
+
+       <project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" remote="hklknz-stuffs" revision="fourteen-v2" />
+
+       <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="ihklknz" revision="fourteen" />
+
+       
+
+  <!-- Remove -->
+
+       <remove-project name="android_hardware_xiaomi" />
+
+</manifest>
